@@ -1,16 +1,26 @@
 * {
-    margin: 0;
+    margin: auto;
     padding: 0;
+    text
+}
+
+.banner {
+   width: 100%;
+   padding: 0;
 }
 
 nav {
+    margin: auto;
+    padding: 0;
     width: 100%;
     height: 40px;
     background-color: rgb(200,200,200);
 }
 
 ul {
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 ul li {
@@ -29,14 +39,20 @@ ul li a {
     padding: 0 20px;
 }
 
+ul li a:hover {
+   color: rgb(0,135,255);
+   font-weight: Bold;
+}
+
+.home-text {
+    margin: auto;
+    width: 80%;
+    padding: 0;
+}
 
 .info {
     width: 100%;
-    color: black;
-    
-}
-
-.info h2 {
-    width: 100%;
-    padding: 20px;
+    color: rgb(20,60,100);
+    text-align: center;
+    padding: 10px;
 }
