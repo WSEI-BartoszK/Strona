@@ -1,8 +1,7 @@
 * {
-    margin: auto;
+    margin: 0;
     padding: 0;
     font-family: 'Montserrat', sans-serif;
-    font-size: 16px;
 }
 
 .banner {
@@ -11,21 +10,22 @@
 }
 
 nav {
-    margin: auto;
     padding: 0;
     width: 100%;
-    height: 70px;
+    height: 40px;
     background-color: rgb(200,200,200);
 }
 
 ul {
+    margin: auto;
     display: flex;
 }
 
 ul li {
+    margin: auto;
     list-style: none;
-    display: inline-block;
     line-height: 38px;
+    padding: 0 10px 0 10px;
 }
 
 ul li a {
@@ -33,6 +33,7 @@ ul li a {
     text-decoration: none;
     font-weight: 700;
     color: rgb(6, 85, 163);
+    font-size: 0.8rem;
 }
 
 ul li a:hover {
@@ -40,38 +41,65 @@ ul li a:hover {
 }
 
 svg {
-    display: flex;
-    justify-content: center;
-    padding-top: 7px;
+    padding-top: 10px;
+}
+
+.white {
+    background-color: rgba(255, 255, 255, 0.5);
 }
 
 h2 {
-    font-size: 1.5rem;
-    padding-top: 10px;
-}
-.info {
-    width: 100%;
-    color: rgb(6, 85, 163);
+    display: flex;
+    justify-content: center;
     text-align: center;
-    padding: 0;
+    font-size: 2rem;
+    padding-top: 15px;
+    color: rgb(6, 85, 163);
 }
 
-div {
+.Procesor {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 50%;
+    padding-top: 15px;
+}
+
+.info {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 1.2rem;
+    width: 90%;
+    color: rgb(6, 85, 163);
+}
+
+.textHis {
+    margin: auto;
+    display: block;
+    justify-content: center;
+    text-align: left;
+    font-size: 1.2rem;
     padding-top: 15px;
     width: 90%;
     color: rgb(6, 85, 163);
 }
 
 video {
-    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
     padding-top: 15px;
 }
 
-.Procesor {
-    width: 50%;
-    padding-top: 15px;
-}
 
-.Home {
-    background-color: black;
+.oknoDodawania {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
