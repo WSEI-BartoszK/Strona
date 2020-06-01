@@ -91,9 +91,11 @@ video {
     align-items: center;
     width: 90%;
     padding-top: 15px;
+    border: none;
+    outline: none;
 }
 
-.input-div {
+.inputDiv {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -101,13 +103,14 @@ video {
     padding-top: 10px;
 }
 
+.add {
+    margin-left: 2px;
+    padding: 5px;
+}
+
 .input {
     width: 250px;
-    height: 20px;
-}
-.addButton {
-    display: flex;
-    justify-content: center;
+    height: 26px;
 }
 
 .container {
@@ -120,6 +123,16 @@ video {
 }
 
 .item_input {
-    width: 228px;
-    height: 18px;
+    width: 208px;
+    height: 26px;
+    margin-top: 2px;
+}
+
+.edit {
+    margin-left: 2px;
+    padding: 5px;
+}
+.remove {
+    margin-left: 2px;
+    padding: 5px;
 }
