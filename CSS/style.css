@@ -46,6 +46,8 @@ ul li a:hover {
 }
 
 h2 {
+    width: 90%;
+    margin: auto;
     display: flex;
     justify-content: center;
     text-align: center;
