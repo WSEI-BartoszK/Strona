@@ -22,10 +22,10 @@ function mov()
 				movInfo = "Wartość " + fromValue + " została przesłana pomyślnie z rejestru " + fromRegister + " do " + toRegister;			
 			}
 		} else {
-			movInfo = "Blad! Operacja z rejestru " + fromRegister + " do " + toRegister;
+			movInfo = "Błąd! Operacja z rejestru " + fromRegister + " do " + toRegister;
 		}
 	} else {
-		movInfo = "Blad! Problem pobrania wartosci z rejestru " + fromRegister;
+		movInfo = "Błąd! Problem pobrania wartości z rejestru " + fromRegister;
 	}
 	userInfo.innerHTML = movInfo;
 }
