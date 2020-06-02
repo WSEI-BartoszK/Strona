@@ -10,6 +10,7 @@
 }
 
 nav ul{
+    text-align: center;
     list-style: none;
     background-color: rgb(200,200,200);
 }
@@ -132,7 +133,7 @@ h3 {
 }
 
 .input {
-    width: 250px;
+    width: 240px;
     height: 26px;
 }
 
@@ -146,7 +147,7 @@ h3 {
 }
 
 .item_input {
-    width: 208px;
+    width: 196px;
     height: 26px;
     margin-top: 2px;
 }
