@@ -45,5 +45,64 @@
         </ul> 
     </nav>
 
+    <h2>Symulator Procesora Intel 8086 dla komendy MOV</h2>
+
+    <div class="form">
+        <form name="form">
+            
+            <div>
+                <h3>1. Wybierz rejestr do którego chcesz wprowadzić wartość:</h3>
+                <select class="sel" id="select1">
+                    <option value="AX">AX</option>
+                    <option value="BX">BX</option>
+                    <option value="CX">CX</option>
+                    <option value="DX""> DX</option>
+                </select>
+            </div>
+            
+            <div>
+                <h3>2. Wybierz rejestr do którego chesz przenieść wartość:</h3>
+                <select class="sel" id="select2">
+                    <option value="AX">AX</option>
+                    <option value="BX">BX</option>
+                    <option value="CX">CX</option>
+                    <option value="DX"> DX</option>
+                </select>
+            </div>
+            
+            <h3>3. Poniżej wpisz wartość w rejestrze, który wybrałeś w punkcie 1:</h3>
+
+            <div class="rej">
+            <label>AX</label>
+            <input type="text" name="AX" id="ax">
+            </div>
+            
+            <div class="rej">
+            <label>BX</label>
+            <input type="text" name="BX" id="bx">
+            </div>
+            
+            <div class="rej">
+            <label>CX</label>
+            <input type="text" name="CX" id="cx">
+            </div>
+            
+            <div class="rej">
+            <label>DX</label>
+            <input type="text" name="DX" id="dx">
+            </div>
+            
+            <h3>4. Naciśni przycisk wyślij:</h3>
+
+            <div>
+                <input class="sel" type="submit" name="wyslij" id="wyslij" value="wyślij" onclick="mov();return false;">
+            </div>
+
+            <div class="wynik"><p id="wynik"> </p></div>
+        </form>
+    </div>
+
+    <script type="text/javascript" src="JS/script.js"></script>
+
 </body>
 </html>

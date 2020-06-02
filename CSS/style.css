@@ -24,7 +24,8 @@ ul {
 ul li {
     margin: auto;
     list-style: none;
-    line-height: 38px;
+    line-height: 36px;
+    border-radius: 50px;
     padding: 0 10px 0 10px;
 }
 
@@ -93,6 +94,34 @@ video {
     padding-top: 15px;
     border: none;
     outline: none;
+}
+
+h3 {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    color: rgb(6, 85, 163);
+}
+
+.form{
+    margin: auto;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.rej{
+    padding-top: 10px;
+}
+
+.wynik {
+    padding-top: 10px;
+    font-weight: 700;
+    color: rgb(6, 85, 163);
 }
 
 .inputDiv {
